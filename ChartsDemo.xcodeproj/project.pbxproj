@@ -12,7 +12,9 @@
 		F729268120D94D3700E54306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F729267F20D94D3700E54306 /* Main.storyboard */; };
 		F729268320D94D3900E54306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F729268220D94D3900E54306 /* Assets.xcassets */; };
 		F729268620D94D3900E54306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F729268420D94D3900E54306 /* LaunchScreen.storyboard */; };
+		F7446D4D20E8C8630030A8EA /* Cos2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7446D4C20E8C8630030A8EA /* Cos2ViewController.swift */; };
 		F749E75F20DBA18600945833 /* CosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F749E75E20DBA18600945833 /* CosViewController.swift */; };
+		F77EC9A920DD1FC100048837 /* PaeBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77EC9A820DD1FC100048837 /* PaeBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		F729268220D94D3900E54306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F729268520D94D3900E54306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F729268720D94D3900E54306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7446D4C20E8C8630030A8EA /* Cos2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cos2ViewController.swift; sourceTree = "<group>"; };
 		F749E75E20DBA18600945833 /* CosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosViewController.swift; sourceTree = "<group>"; };
+		F77EC9A820DD1FC100048837 /* PaeBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaeBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				F749E75E20DBA18600945833 /* CosViewController.swift */,
+				F7446D4C20E8C8630030A8EA /* Cos2ViewController.swift */,
+				F77EC9A820DD1FC100048837 /* PaeBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -217,6 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F749E75F20DBA18600945833 /* CosViewController.swift in Sources */,
+				F7446D4D20E8C8630030A8EA /* Cos2ViewController.swift in Sources */,
+				F77EC9A920DD1FC100048837 /* PaeBarViewController.swift in Sources */,
 				F729267C20D94D3700E54306 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

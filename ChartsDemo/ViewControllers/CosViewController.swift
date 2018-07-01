@@ -30,40 +30,11 @@ class CosViewController: UIViewController {
         chartView.drawValueAboveBarEnabled = false
         chartView.maxVisibleCount = 60
         
-        //        let xAxis = chartView.xAxis
-        //        xAxis.labelPosition = .bottom
-        //        xAxis.enabled = false
-        
-        //        let leftAxis = chartView.leftAxis
-        //        leftAxis.labelCount = 6
-        //        leftAxis.axisMinimum = -2.5
-        //        leftAxis.axisMaximum = 2.5
-        //        leftAxis.granularityEnabled = true
-        //        leftAxis.granularity = 0.1
-        //
-        //        let rightAxis = chartView.rightAxis
-        //        rightAxis.labelCount = 6
-        //        rightAxis.axisMinimum = -2.5
-        //        rightAxis.axisMaximum = 2.5
-        //        rightAxis.granularity = 0.1
-        
-        //        let l = chartView.legend
-        //        l.horizontalAlignment = .left
-        //        l.verticalAlignment = .bottom
-        //        l.orientation = .horizontal
-        //        l.drawInside = false
-        //        l.form = .square
-        //        l.formSize = 9
-        //        l.font = .systemFont(ofSize: 11)
-        //        l.xEntrySpace = 4
-        //        chartView.legend = l
         
         chartView.leftAxis.enabled = false
         chartView.rightAxis.enabled = false
         chartView.legend.enabled = false
         
-        //chartView.setVisibleXRange(minXRange: -1.0, maxXRange: 1.0)
-        //chartView.setVisibleYRange(minYRange: -1.0, maxYRange: 1.0, axis: .left)
         chartView.leftAxis.axisMaximum = 1
         chartView.leftAxis.axisMinimum = -1
         
@@ -71,6 +42,8 @@ class CosViewController: UIViewController {
         chartView.xAxis.axisMaximum = 0.5
         
         chartView.xAxis.enabled = false
+        
+        chartView.backgroundColor = UIColor.black
         
         chartView.animate(yAxisDuration: 1)
         self.percent = 20
@@ -107,7 +80,7 @@ class CosViewController: UIViewController {
         }
         
         let set = BarChartDataSet(values: entries, label: "Sinus Function")
-        set.setColor(UIColor(red: 240/255, green: 120/255, blue: 123/255, alpha: 1))
+        set.setColor(UIColor.green)
         
         let data = BarChartData(dataSet: set)
         data.setValueFont(.systemFont(ofSize: 10, weight: .light))
